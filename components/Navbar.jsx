@@ -14,60 +14,30 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="h-20 bg-black text-gray-400 flex items-center">
+      <div className="h-20 bg-teal-900 flex items-center">
         <div className="wrapper flex justify-between items-center">
-          <div className="logo" data-aos="fade-right" data-aos-duration="1000">
-            <Link href="/" className="text-white font-semibold">
+          <div className="logo">
+            <Link href="/" className="text-white text-2xl font-semibold">
               Kajal Rekha
             </Link>
           </div>
 
           <div className="hidden md:block">
-            <div
-              data-aos="fade-down"
-              data-aos-duration="1000"
-              className="flex gap-5 justify-between"
-            >
-              <Link href="/" className="hover:text-white transition-color">
-                Home
-              </Link>
-              <Link
-                href="/projects"
-                className="hover:text-white transition-color"
-              >
-                Projects
-              </Link>
+            <div className="flex gap-5 justify-between text-white">
+              <Link href="/">Home</Link>
+              <Link href="/projects">Projects</Link>
 
-              <Link
-                href="/skills"
-                className="hover:text-white transition-color"
-              >
-                Skills
-              </Link>
+              <Link href="/skills">Skills</Link>
 
-              <Link href="/about" className="hover:text-white transition-color">
-                About
-              </Link>
+              <Link href="/about">About</Link>
 
-              <Link
-                href="/contact"
-                className="hover:text-white transition-color"
-              >
-                Contact
-              </Link>
+              <Link href="/contact">Contact</Link>
             </div>
           </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            className="hidden md:block "
-          >
-            <button
-              data-aos="fade-up"
-              className="bg-black text-white py-3 rounded-lg w-full hover:bg-gray-700 duration-300"
-            >
+          <div className="hidden md:block text-white font-medium">
+            <Link href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link">
               View Resume
-            </button>
+            </Link>
           </div>
 
           {/*toggle button */}
@@ -95,43 +65,18 @@ const Navbar = () => {
             >
               <div>
                 <div className="flex flex-col gap-5 items-center mb-10">
-                  <Link href="/" className="hover:text-white transition-color">
-                    Home
-                  </Link>
-                  <Link
-                    href="/projects"
-                    className="hover:text-white transition-color"
-                  >
-                    Projects
-                  </Link>
+                  <Link href="/">Home</Link>
+                  <Link href="/projects">Projects</Link>
 
-                  <Link
-                    href="/skills"
-                    className="hover:text-white transition-color"
-                  >
-                    Skills
-                  </Link>
-                  <Link
-                    href="/about"
-                    className="hover:text-white transition-color"
-                  >
-                    About
-                  </Link>
+                  <Link href="/skills">Skills</Link>
+                  <Link href="/about">About</Link>
 
-                  <Link
-                    href="/contact"
-                    className="hover:text-white transition-color"
-                  >
-                    Contact
-                  </Link>
+                  <Link href="/contact">Contact</Link>
                 </div>
 
-                <button
-                  data-aos="fade-up"
-                  className="bg-black text-white py-3 rounded-lg w-full hover:bg-gray-700 duration-300"
-                >
+                <Link href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link">
                   View Resume
-                </button>
+                </Link>
               </div>
             </div>
           </div>
