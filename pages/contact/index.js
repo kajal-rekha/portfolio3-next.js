@@ -67,7 +67,7 @@ const Contact = () => {
             placeholder="Write your name"
             name="fullname"
             required
-            className="fullname bg-transparent border outline-none  py-12 px-28 rounded-lg border-white/20 focus:border-white  duration-500 w-full"
+            className="fullname bg-transparent border outline-none  py-12 px-28 rounded-lg border-white/70 focus:border-white  duration-500 w-full"
           />
         </div>
         <div className="form-control overflow-hidden">
@@ -76,7 +76,7 @@ const Contact = () => {
             placeholder="Write your email"
             name="email"
             required
-            className="email bg-transparent border py-12 px-28 outline-none rounded-lg border-white/20 focus:border-white duration-500 w-full"
+            className="email bg-transparent border py-12 px-28 outline-none rounded-lg border-white/70 focus:border-white duration-500 w-full"
           />
         </div>
         <div className="form-control overflow-hidden">
@@ -86,14 +86,14 @@ const Contact = () => {
             required
             rows="1"
             cols="30"
-            className="message resize-none bg-transparent border py-12 px-28 rounded-lg border-white/20 focus:border-white outline-none duration-500 w-full "
+            className="message resize-none bg-transparent border py-12 px-28 rounded-lg border-white/70 focus:border-white outline-none duration-500 w-full "
           />
         </div>
         <div className="form-control overflow-hidden">
           <input
             type="submit"
             value="Send message"
-            className="uppercase border bg-transparent py-12 px-28 rounded-lg border-white/20 duration-500  focus:border-white w-full"
+            className="uppercase border bg-transparent py-12 px-28 rounded-lg border-white/70 duration-500  focus:border-white w-full"
           />
         </div>
       </form>
