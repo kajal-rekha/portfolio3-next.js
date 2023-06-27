@@ -15,7 +15,8 @@ body {
 }
 
 .projects,
-.skills {
+.skills,
+.section-title {
   font-family: "Michroma", sans-serif;
 }
 .wrapper {

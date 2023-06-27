@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero wrapper grid grid-cols-1 md:grid-cols-2 gap-10 overflow-hidden ">
         <div class="hero-left  ">
           <Image
-            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005288/her_o2_msb5gs.jpg"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005077/109305530_mjokbs.jpg"
             alt="hero image"
             width={450}
             height={450}

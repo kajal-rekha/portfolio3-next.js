@@ -38,7 +38,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:block text-white font-medium">
-            <Link href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link">
+            <Link
+              href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
+              className="py-3 px-5 text-lg font-medium rounded-lg bg-orange-400 hover:bg-orange-500 duration-300"
+            >
               View Resume
             </Link>
           </div>
