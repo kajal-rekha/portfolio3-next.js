@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectItem = ({ project }) => {
   return (
@@ -22,33 +23,33 @@ const ProjectItem = ({ project }) => {
         </span>
 
         <div className="flex gap-8 flex-wrap text-sm">
-          <a
+          <Link
             href={project.liveLink}
             target="_blank"
             rel="noreferrer"
-            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
+            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:bg-orange-400/70 duration-500"
           >
             Live Site
-          </a>
+          </Link>
 
-          <a
+          <Link
             href={project.frontEndLink}
             target="_blank"
             rel="noreferrer"
-            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
+            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:bg-orange-400/70 duration-500 "
           >
             Front-End Code
-          </a>
+          </Link>
 
           {project.backendLink && (
-            <a
+            <Link
               href={project.backendLink}
               target="_blank"
               rel="noreferrer"
-              className="uppercase py-5 px-8 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
+              className="uppercase py-5 px-8 border border-white/20 rounded-full duration-500 hover:bg-orange-400/70"
             >
               Back-End Code
-            </a>
+            </Link>
           )}
         </div>
       </div>

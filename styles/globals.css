@@ -14,6 +14,27 @@ body {
   font-family: "Cabin", sans-serif;
 }
 
+/* Navbar */
+.resume {
+  position: relative;
+}
+
+.resume::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: #f9fafb;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.resume:hover::after {
+  width: 100%;
+}
+
 .projects,
 .skills,
 .section-title {

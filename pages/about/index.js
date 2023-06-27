@@ -39,7 +39,7 @@ const About = () => {
           <div className="">
             <Link
               href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
-              className="py-4 px-7 text-lg font-medium rounded-lg bg-orange-400 hover:bg-orange-500 duration-300"
+              className="py-4 px-7 text-lg font-medium border rounded-full border-white/20 hover:bg-orange-400/70 duration-300"
             >
               View Resume
             </Link>
