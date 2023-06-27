@@ -3,7 +3,11 @@ import Image from "next/image";
 const ProjectItem = ({ project }) => {
   return (
     <div className="project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20">
-      <div className="project-left xl:col-span-3 flex flex-col gap-3">
+      <div
+        className="project-left xl:col-span-3 flex flex-col gap-3"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <span className="text-8xl text-white">
           {String(project.id).padStart(2, 0)}
         </span>
@@ -49,7 +53,11 @@ const ProjectItem = ({ project }) => {
         </div>
       </div>
 
-      <div className="project-right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto">
+      <div
+        className="project-right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
         <Image
           src={project.img}
           alt="project image"
