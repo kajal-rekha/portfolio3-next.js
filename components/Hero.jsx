@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="hero wrapper py-10 grid grid-cols-1 md:grid-cols-2 gap-20 mt-32 overflow-hidden">
       <div class="hero-left">
         <Image
-          src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1687806487/hr-removebg-preview_segcts.png"
+          src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005288/her_o2_msb5gs.jpg"
           alt="hero image"
           width={500}
           height={500}
@@ -17,7 +17,7 @@ const Hero = () => {
       <div class="hero-right ">
         <div className="space-y-5">
           <p className="text-3xl  font-semibold">Hello there, my name is</p>
-          <h1 className="text-6xl font-semibold text-orange-300">
+          <h1 className="text-6xl font-semibold text-orange-300 uppercase">
             Kajal Rekha{" "}
           </h1>
           <p className="text-xl text-gray-300">

@@ -1,4 +1,5 @@
 import ProjectItem from "@/components/ProjectItem";
+import SectionTitle from "@/components/SectionTitle";
 
 const data = [
   {
@@ -75,9 +76,9 @@ const data = [
 ];
 const Projects = () => {
   return (
-    <div className="wrapper mt-20">
-      <h2>Projects</h2>
-      <div className="projects-wrapper mt-40 flex flex-col gap-40">
+    <div className="wrapper mt-20 py-10">
+      <SectionTitle h2="Projects" />
+      <div className="projects-wrapper mt-32 flex flex-col gap-40">
         {data.map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}

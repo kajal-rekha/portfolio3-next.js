@@ -14,10 +14,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="h-20 bg-teal-900 flex">
+      <div className=" navbar h-20 bg-teal-900 flex">
         <div className="wrapper flex justify-between items-center">
           <div className="logo">
-            <Link href="/" className="text-white text-xl font-semibold">
+            <Link
+              href="/"
+              className="text-white text-xl font-semibold uppercase"
+            >
               Kajal Rekha
             </Link>
           </div>

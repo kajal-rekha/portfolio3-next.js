@@ -1,3 +1,4 @@
+import SectionTitle from "@/components/SectionTitle";
 import Image from "next/image";
 
 const data = [
@@ -117,8 +118,8 @@ const data = [
 
 const Skills = () => {
   return (
-    <div className="skills wrapper py-10 mt-40" id="skills">
-      <h2>Skills</h2>
+    <div className="skills wrapper py-10 mt-32" id="skills">
+      <SectionTitle h2="Skills" />
       <div className="wrapper grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-20 mt-20">
         <ul className="skills-left flex flex-col gap-10">
           {data

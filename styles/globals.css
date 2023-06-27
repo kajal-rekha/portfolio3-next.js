@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +10,11 @@ body {
   background-color: #02302d;
   color: white;
   font-family: "Michroma", sans-serif;
+}
+
+.navbar,
+.hero {
+  font-family: "Poppins", sans-serif;
 }
 .wrapper {
   @apply container mx-auto px-5 lg:px-0;
