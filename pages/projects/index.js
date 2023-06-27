@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     title: "Cordemy - An Online Learning Platform",
-    img: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1687459898/Screenshot_53_lcf8zk.png",
+    img: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1687885036/Screenshot_1_p8ak0e.png",
 
     description:
       "Cordemy is an innovative online learning platform that provides a unique and immersive educational experience. It leverages a powerful tech stack, including Next.js, React, Prisma, Stripe, NextAuth, Tailwind CSS, clsx, and Axios, to deliver a feature-rich platform for learners and instructors.",
@@ -76,7 +76,7 @@ const data = [
 ];
 const Projects = () => {
   return (
-    <div className="wrapper mt-20 py-10">
+    <div className="wrapper mt-20 py-10 projects">
       <SectionTitle h2="Projects" />
       <div className="projects-wrapper mt-32 flex flex-col gap-40">
         {data.map((project) => (

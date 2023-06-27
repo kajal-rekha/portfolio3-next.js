@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Skills from "./skills";
+import About from "./about";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -17,6 +18,7 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <Projects />
       <Skills />
+      <About />
       <Footer />
     </>
   );
