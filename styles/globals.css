@@ -12,3 +12,23 @@ body {
 .wrapper {
   @apply container mx-auto px-5 lg:px-0;
 }
+
+.skill-title {
+  position: relative;
+}
+
+.skill-title::before,
+.skill-title::after {
+  content: "";
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.skill-title::before {
+  width: 100vw;
+  opacity: 0.5;
+  transition: 1.5s;
+}

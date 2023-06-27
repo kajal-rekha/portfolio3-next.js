@@ -5,6 +5,7 @@ import Projects from "./projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Skills from "./skills";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Projects />
+      <Skills />
       <Footer />
     </>
   );
