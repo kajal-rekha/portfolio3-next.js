@@ -16,7 +16,8 @@ const data = [
       "Axios",
       "Mongodb",
       "Tailwind CSS",
-      "Context-api",
+      "Clsx",
+      "Aos",
     ],
     liveLink: "https://cordemy-theta.vercel.app",
     frontEndLink: "https://github.com/kajal-rekha/cordemy.git",
@@ -66,7 +67,7 @@ const data = [
     img: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1675278752/Screenshot_4_rfupr3.png",
 
     description:
-      "Foodverse is a recipe web application, where an user can search different kinds of recipe and find the necessary ingredients for the specific recipe item. Also a recipe item can be saved into the local storage of the browser. ",
+      "Foodverse is an innovative recipe web app that allows users to explore a wide range of recipes and easily find the essential ingredients for each dish. Seamlessly save your favorite recipes to your browser's local storage, ensuring quick access and a personalized cooking experience. Get inspired and create culinary masterpieces!",
     tools: ["React.js", " React Router", "Tailwind CSS"],
     liveLink: "https://foodvarse.netlify.app/",
     frontEndLink: "https://github.com/kajal-rekha/foodvarse.git",

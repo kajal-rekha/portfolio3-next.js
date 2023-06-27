@@ -4,14 +4,14 @@ const ProjectItem = ({ project }) => {
   return (
     <div className="project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20">
       <div
-        className="project-left xl:col-span-3 flex flex-col gap-3"
-        data-aos="fade-right"
-        data-aos-duration="1000"
+        className="project-left xl:col-span-3 flex flex-col gap-4"
+        // data-aos="fade-right"
+        // data-aos-duration="1000"
       >
-        <span className="text-8xl text-white">
+        <span className="text-7xl text-white">
           {String(project.id).padStart(2, 0)}
         </span>
-        <h3 className="uppercase text-5xl leading-relaxed text-orange-300">
+        <h3 className="uppercase text-3xl leading-relaxed text-orange-300">
           {project.title}
         </h3>
         <p className="text-gray-300">{project.description}</p>
@@ -21,12 +21,12 @@ const ProjectItem = ({ project }) => {
           ))}
         </span>
 
-        <div className="flex gap-8 flex-wrap">
+        <div className="flex gap-8 flex-wrap text-sm">
           <a
             href={project.liveLink}
             target="_blank"
             rel="noreferrer"
-            className="uppercase py-6 px-10 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
+            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
           >
             Live Site
           </a>
@@ -35,7 +35,7 @@ const ProjectItem = ({ project }) => {
             href={project.frontEndLink}
             target="_blank"
             rel="noreferrer"
-            className="uppercase py-6 px-10 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
+            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
           >
             Front-End Code
           </a>
@@ -45,7 +45,7 @@ const ProjectItem = ({ project }) => {
               href={project.backendLink}
               target="_blank"
               rel="noreferrer"
-              className="uppercase py-6 px-10 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
+              className="uppercase py-5 px-8 border border-white/20 rounded-full hover:border-cyan-400/20 duration-500 hover:bg-cyan-400/20"
             >
               Back-End Code
             </a>
@@ -55,8 +55,8 @@ const ProjectItem = ({ project }) => {
 
       <div
         className="project-right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto"
-        data-aos="fade-left"
-        data-aos-duration="1000"
+        // data-aos="fade-left"
+        // data-aos-duration="1000"
       >
         <Image
           src={project.img}
