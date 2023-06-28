@@ -6,8 +6,8 @@ const ProjectItem = ({ project }) => {
     <div className="project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20">
       <div
         className="project-left xl:col-span-3 flex flex-col gap-4"
-        // data-aos="fade-right"
-        // data-aos-duration="1000"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <span className="text-7xl text-white">
           {String(project.id).padStart(2, 0)}
@@ -56,8 +56,8 @@ const ProjectItem = ({ project }) => {
 
       <div
         className="project-right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto"
-        // data-aos="fade-left"
-        // data-aos-duration="1000"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <Image
           src={project.img}
