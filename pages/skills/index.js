@@ -125,7 +125,12 @@ const Skills = () => {
           {data
             .filter((_, i) => i < Math.floor(data.length / 2))
             .map((skill) => (
-              <li key={skill.id} className="skill-item overflow-hidden">
+              <li
+                key={skill.id}
+                className="skill-item overflow-hidden"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="flex gap-10 items-baseline">
                   <div>
                     <Image
@@ -149,7 +154,12 @@ const Skills = () => {
           {data
             .filter((_, i) => i >= Math.floor(data.length / 2))
             .map((skill, i) => (
-              <li key={skill.id} className="skill-item reveal overflow-hidden">
+              <li
+                key={skill.id}
+                className="skill-item reveal overflow-hidden"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="flex gap-10 items-baseline">
                   <div>
                     <Image
