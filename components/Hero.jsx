@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="hero-wrape mx-auto mt-20 ">
       <div className="hero wrapper grid grid-cols-1 md:grid-cols-2 gap-10 overflow-hidden ">
-        <div class="hero-left  ">
+        <div className="hero-left  ">
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005077/109305530_mjokbs.jpg"
             alt="hero image"
@@ -16,7 +16,7 @@ const Hero = () => {
             className="rounded-sm "
           />
         </div>
-        <div class="hero-right">
+        <div className="hero-right">
           <div className="space-y-5">
             <p className="text-2xl  font-semibold">Hello there, my name is</p>
             <h1 className="text-7xl font-semibold text-orange-300 uppercase">
