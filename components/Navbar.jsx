@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className=" navbar h-20 bg-teal-900 flex">
+      <div className=" navbar h-20 bg-slate-950 flex">
         <div className="wrapper flex justify-between items-center">
           <div className="logo">
             <Link

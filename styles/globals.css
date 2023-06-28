@@ -9,7 +9,8 @@
 @tailwind utilities;
 
 body {
-  background-color: #02302d;
+  /* background-color: #02302d; */
+  background-color: #0f172a;
   color: white;
   font-family: "Cabin", sans-serif;
 }
