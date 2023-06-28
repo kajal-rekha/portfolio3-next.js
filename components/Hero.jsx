@@ -1,8 +1,5 @@
 import Image from "next/image";
-//import Link from "next/link";
-// import { BiLogoFacebookCircle } from "react-icons/bi";
-// import { BiLogoTwitter } from "react-icons/bi";
-// import { AiFillLinkedin } from "react-icons/ai";
+
 const Hero = () => {
   return (
     <div className="hero-wrape mx-auto mt-20 ">
@@ -13,21 +10,17 @@ const Hero = () => {
             alt="hero image"
             width={450}
             height={450}
-            className="rounded-sm "
+            className="rounded-full "
           />
         </div>
         <div className="hero-right">
           <div className="space-y-5">
             <p className="text-2xl  font-semibold">Hello there, my name is</p>
-            <h1 className="text-7xl font-semibold text-orange-300 uppercase">
-              Kajal Rekha,
-            </h1>
-            <p className="text-6xl text-gray-300 leading-none">
-              a passionate{" "}
-              <span className="text-orange-300 italic">MERN Stack</span>{" "}
-              enthusiast and aspiring developer, proudly representing
-              Bangladesh.
-            </p>
+            <h1 className="text-7xl font-semibold  uppercase">Kajal Rekha,</h1>
+            <h2 className="text-6xl text-gray-300 leading-none typewriter">
+              a passionate <span className="">mern stack</span> enthusiast and
+              aspiring developer, proudly representing Bangladesh.
+            </h2>
           </div>
           {/* <div className="mt-10">
           {" "}

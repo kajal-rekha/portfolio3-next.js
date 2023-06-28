@@ -36,16 +36,16 @@ const Contact = () => {
       <SectionTitle h2={"Contact"} />
       <form
         onSubmit={sendEmail}
-        className="contact-form grid grid-cols md:grid-cols-2 gap-5 py-10 mx-auto "
+        className="contact-form grid grid-cols md:grid-cols-2 gap-14 py-10 mx-auto mt-20"
         ref={formRef}
       >
         <div className="form-control flex flex-col gap-2">
           <input
-            type="name"
+            type="text"
             name="name"
             placeholder="write your name"
             required
-            className=" name border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300"
+            className="name border border-gray-600 focus:border-gray-500 bg-transparent py-10 px-14 rounded-xl outline-none duration-300"
             data-aos="fade-right"
             data-aos-duration="1000"
           />
@@ -56,7 +56,7 @@ const Contact = () => {
             name="email"
             placeholder="write your email"
             required
-            className=" email border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300"
+            className=" email border border-gray-600 focus:border-gray-500 bg-transparent py-10 px-14 rounded-xl outline-none duration-300"
             data-aos="fade-left"
             data-aos-duration="1000"
           />
@@ -69,13 +69,13 @@ const Contact = () => {
             name="message"
             rows="1"
             cols="30"
-            className="message border border-gray-300 focus:border-gray-600 h-40 rounded-xl outline-none py-5 px-5 resize-none duration-300"
+            className="message border border-gray-600 focus:border-gray-500 bg-transparent rounded-xl outline-none py-10 px-14 resize-none duration-300"
             data-aos="fade-right"
             data-aos-duration="1000"
           />
         </div>
         <div
-          className="submit px-2 py-5  rounded-xl bg-black text-center overflow-hidden hover:bg-gray-700 duration-300"
+          className="submit  rounded-xl  py-10 px-14 text-center overflow-hidden border border-gray-600 bg-transparent  duration-300"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
