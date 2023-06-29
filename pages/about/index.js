@@ -7,7 +7,11 @@ const About = () => {
     <div className="about wrapper mt-40 " id="about">
       <SectionTitle h2={"About"} />
 
-      <div className="about-wrapper mt-32 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
+      <div
+        className="about-wrapper mt-32 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <div className="about-left">
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005288/her_o2_msb5gs.jpg"
@@ -18,25 +22,35 @@ const About = () => {
           />
         </div>
         <div className="about-right">
-          <p className="text-xl text-gray-300 mb-7">
-            I am a mern stack developer with a passion for creating
-            user-friendly and visually appealing websites. I have expertise in
-            HTML, CSS, JavaScript, and React, and have a strong understanding of
-            responsive design and cross-browser compatibility. I stay up-to-date
-            with the latest development trends and techniques to ensure that my
-            projects are up to industry standards. My goal is to deliver a
-            seamless user experience that meets and exceeds the needs of my
-            clients and their users.
-          </p>
+          <div>
+            <p
+              className="text-xl text-gray-300 mb-7"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              I am a mern stack developer with a passion for creating
+              user-friendly and visually appealing websites. I have expertise in
+              HTML, CSS, JavaScript, and React, and have a strong understanding
+              of responsive design and cross-browser compatibility. I stay
+              up-to-date with the latest development trends and techniques to
+              ensure that my projects are up to industry standards. My goal is
+              to deliver a seamless user experience that meets and exceeds the
+              needs of my clients and their users.
+            </p>
 
-          <p className="text-xl text-gray-300 mb-20">
-            I stay up-to-date with the latest development trends and techniques
-            to ensure that my projects are up to industry standards. My goal is
-            to deliver a seamless user experience that meets and exceeds the
-            needs of my clients and their users.
-          </p>
+            <p
+              className="text-xl text-gray-300 mb-20"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              I stay up-to-date with the latest development trends and
+              techniques to ensure that my projects are up to industry
+              standards. My goal is to deliver a seamless user experience that
+              meets and exceeds the needs of my clients and their users.
+            </p>
+          </div>
 
-          <div className="">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <Link
               href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
               className="py-4 px-7 text-lg font-medium border rounded-full border-white/20 hover:bg-orange-400/70 duration-300"

@@ -12,17 +12,35 @@ const ProjectItem = ({ project }) => {
         <span className="text-7xl text-white">
           {String(project.id).padStart(2, 0)}
         </span>
-        <h3 className="uppercase text-3xl leading-relaxed text-orange-300">
+        <h3
+          className="uppercase text-3xl leading-relaxed text-orange-300"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           {project.title}
         </h3>
-        <p className="text-gray-300">{project.description}</p>
-        <span className="text-orange-300 flex gap-5 flex-wrap">
+        <p
+          className="text-gray-300"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          {project.description}
+        </p>
+        <span
+          className="text-orange-300 flex gap-5 flex-wrap"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           {project.tools.map((tool, i) => (
             <span key={i}>{tool}</span>
           ))}
         </span>
 
-        <div className="flex gap-8 flex-wrap text-sm">
+        <div
+          className="flex gap-8 flex-wrap text-sm"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <Link
             href={project.liveLink}
             target="_blank"
