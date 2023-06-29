@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
       <div className=" navbar h-20 shadow-lg  flex">
         <div className="wrapper flex justify-between items-center">
-          <div className="logo">
+          <div className="logo" data-aos="fade-right" data-aos-duration="1000">
             <Link
               href="/"
               className="text-white text-xl font-semibold uppercase"
@@ -26,7 +26,11 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:block">
-            <div className="flex gap-5 justify-between text-white">
+            <div
+              className="flex gap-5 justify-between text-white"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               <Link href="/">Home</Link>
               <Link href="/projects">Projects</Link>
 
@@ -37,7 +41,11 @@ const Navbar = () => {
               <Link href="/contact">Contact</Link>
             </div>
           </div>
-          <div className="hidden md:block text-white font-medium">
+          <div
+            className="hidden md:block text-white font-medium"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <Link
               href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
               className="resume"
@@ -65,7 +73,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <div
               onClick={handleOpen}
-              className={`w-screen h-screen fixed z-[98] bg-black/50 top-0 left-0 right-0 bottom-0 flex text-white justify-center items-center ${
+              className={`w-screen h-screen fixed z-[98] bg-slate-950 top-0 left-0 right-0 bottom-0 flex text-white justify-center items-center ${
                 setToggle ? `` : "hidden"
               }`}
             >
