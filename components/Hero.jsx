@@ -13,7 +13,7 @@ const Hero = () => {
             data-aos-duration="1000"
           >
             <p className="text-2xl  font-semibold">Hello there, my name is</p>
-            <h1 className="text-7xl font-semibold  uppercase">Kajal Rekha,</h1>
+            <h1 className="text-7xl font-semibold  uppercase">Kajal Rekha</h1>
             <h1 className="text-4xl">
               <Typewriter
                 options={{
@@ -59,6 +59,7 @@ const Hero = () => {
             alt="hero image"
             width={450}
             height={450}
+            priority
             className="rounded-full "
           />
         </div>

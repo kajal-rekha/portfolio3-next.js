@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="my-40 text-center text-white/50 overflow-hidden text-lg">
+    <footer className="mt-20 py-10 text-center text-white/50 overflow-hidden text-lg">
       <p>
         &copy; {new Date().getFullYear()}{" "}
         <Link href="#" className="link-item hover:text-white duration-500">

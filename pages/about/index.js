@@ -18,6 +18,7 @@ const About = () => {
             alt="hero image"
             width={500}
             height={500}
+            priority
             className="rounded-sm "
           />
         </div>
