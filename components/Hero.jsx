@@ -14,7 +14,7 @@ const Hero = () => {
           >
             <p className="text-2xl  font-semibold">Hello there, my name is</p>
             <h1 className="text-7xl font-semibold  uppercase">Kajal Rekha</h1>
-            <h1 className="text-4xl">
+            <h1 className="text-4xl text-orange-300">
               <Typewriter
                 options={{
                   strings: [

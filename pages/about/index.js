@@ -14,7 +14,7 @@ const About = () => {
       >
         <div className="about-left">
           <Image
-            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005288/her_o2_msb5gs.jpg"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1678393180/abc_yylyrh.jpg"
             alt="hero image"
             width={500}
             height={500}
