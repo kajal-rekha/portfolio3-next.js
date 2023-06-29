@@ -5,7 +5,7 @@ const ProjectItem = ({ project }) => {
   return (
     <div className="project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20">
       <div
-        className="project-left xl:col-span-3 flex flex-col gap-4"
+        className="project-left xl:col-span-3 flex flex-col gap-6"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
