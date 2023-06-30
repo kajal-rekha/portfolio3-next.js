@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Social from "@/components/Social";
 import "@/styles/globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
+      <Social />
       <Footer />
     </>
   );
