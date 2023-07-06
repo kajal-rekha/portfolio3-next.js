@@ -12,9 +12,13 @@ const Hero = () => {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            <p className="text-2xl  font-semibold">Hello there, my name is</p>
-            <h1 className="text-7xl font-semibold  uppercase">Kajal Rekha</h1>
-            <h1 className="text-4xl text-orange-300">
+            <p className="text-xl md:text-2xl  font-semibold">
+              Hello there, my name is
+            </p>
+            <h1 className="text-3xl md:text-5xl font-semibold  uppercase">
+              Kajal Rekha
+            </h1>
+            <h1 className="text-2xl md:text-3xl text-orange-300">
               <Typewriter
                 options={{
                   strings: [
@@ -27,7 +31,7 @@ const Hero = () => {
                 }}
               />
             </h1>
-            <p className="text-xl">
+            <p className="text-lg">
               I am a skilled MERN stack developer with expertise in building web
               applications. I am passionate about creating efficient and
               user-friendly solutions, leveraging my strong knowledge of
@@ -48,7 +52,7 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className="hero-right ml-28"
+          className="hero-right md:ml-28"
           data-aos="fade-up"
           data-aos-duration="1000"
         >

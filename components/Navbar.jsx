@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="logo" data-aos="fade-right" data-aos-duration="1000">
             <Link
               href="/"
-              className="text-white text-xl font-semibold uppercase"
+              className="text-white text-lg font-semibold uppercase"
             >
               Kajal Rekha
             </Link>

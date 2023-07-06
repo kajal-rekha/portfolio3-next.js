@@ -9,7 +9,7 @@ const ProjectItem = ({ project }) => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <span className="text-7xl text-white">
+        <span className=" project-id text-7xl text-white">
           {String(project.id).padStart(2, 0)}
         </span>
         <h3
