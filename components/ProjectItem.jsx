@@ -20,14 +20,14 @@ const ProjectItem = ({ project }) => {
           {project.title}
         </h3>
         <p
-          className="text-gray-300"
+          className="text-gray-300 md:text-lg"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           {project.description}
         </p>
         <span
-          className="text-orange-300 flex gap-5 flex-wrap"
+          className="md:text-lg text-orange-300 flex gap-5 flex-wrap"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
@@ -37,7 +37,7 @@ const ProjectItem = ({ project }) => {
         </span>
 
         <div
-          className="flex gap-8 flex-wrap text-sm"
+          className=" flex gap-8 flex-wrap md:text-lg"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
@@ -45,7 +45,7 @@ const ProjectItem = ({ project }) => {
             href={project.liveLink}
             target="_blank"
             rel="noreferrer"
-            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:bg-orange-400/70 duration-500"
+            className="uppercase py-5 px-10 border border-white/20 rounded-full hover:bg-orange-400/70 duration-500"
           >
             Live Site
           </Link>
@@ -54,7 +54,7 @@ const ProjectItem = ({ project }) => {
             href={project.frontEndLink}
             target="_blank"
             rel="noreferrer"
-            className="uppercase py-5 px-8 border border-white/20 rounded-full hover:bg-orange-400/70 duration-500 "
+            className="uppercase py-5 px-10 border border-white/20 rounded-full hover:bg-orange-400/70 duration-500 "
           >
             Front-End Code
           </Link>
@@ -64,7 +64,7 @@ const ProjectItem = ({ project }) => {
               href={project.backendLink}
               target="_blank"
               rel="noreferrer"
-              className="uppercase py-5 px-8 border border-white/20 rounded-full duration-500 hover:bg-orange-400/70"
+              className="uppercase py-5 px-10 border border-white/20 rounded-full duration-500 hover:bg-orange-400/70"
             >
               Back-End Code
             </Link>

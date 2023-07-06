@@ -46,7 +46,7 @@ const data = [
   },
   {
     id: 3,
-    title: "Tech Alph _ An Ecommerce Website",
+    title: "Tech Alph - An Ecommerce Website",
     img: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1677934825/Screenshot_36_efvmrv.png",
 
     description:
@@ -64,7 +64,7 @@ const data = [
   },
   {
     id: 4,
-    title: "Foodvarse _ A Recipe Finder Web Application",
+    title: "Foodvarse - A Recipe Finder Web Application",
     img: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1675278752/Screenshot_4_rfupr3.png",
 
     description:

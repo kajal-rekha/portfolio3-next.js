@@ -3,7 +3,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
 
 const Social = () => {
   return (
-    <div className="socials flex gap-10 text-xl fixed right-5 top-[30%] -rotate-90 origin-right p-5  z-50">
+    <div className="socials flex gap-10 text-2xl fixed right-5 top-[30%] -rotate-90 origin-right p-5  z-50">
       <div className="rotate-90">
         <Link href="https://www.facebook.com/anowar.kajal">
           <FaFacebookF className="text-orange-300   hover:text-orange-400 duration-500" />

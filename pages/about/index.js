@@ -14,7 +14,7 @@ const About = () => {
       >
         <div className="about-left">
           <Image
-            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1678393180/abc_yylyrh.jpg"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005077/109305530_mjokbs.jpg"
             alt="hero image"
             width={500}
             height={500}
@@ -25,7 +25,7 @@ const About = () => {
         <div className="about-right">
           <div>
             <p
-              className="text-xl text-gray-300 mb-7"
+              className="md:text-lg text-gray-300 mb-7"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
@@ -40,7 +40,7 @@ const About = () => {
             </p>
 
             <p
-              className="text-xl text-gray-300 mb-20"
+              className="md:text-lg text-gray-300 mb-20"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
@@ -51,10 +51,10 @@ const About = () => {
             </p>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="1000">
+          <div className="mb-10" data-aos="fade-up" data-aos-duration="1000">
             <Link
               href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
-              className="py-4 px-7 text-lg font-medium border rounded-full border-white/20 hover:bg-orange-400/70 duration-300"
+              className="py-4 px-7 md:text-lg font-medium border rounded-full border-white/20 hover:bg-orange-400/70 duration-300"
             >
               View Resume
             </Link>

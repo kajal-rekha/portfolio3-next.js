@@ -120,7 +120,7 @@ const Skills = () => {
   return (
     <div className="skills wrapper py-10 mt-32" id="skills">
       <SectionTitle h2="Skills" />
-      <div className="wrapper grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-20 mt-20">
+      <div className="wrapper grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-20 mt-20">
         <ul className="skills-left flex flex-col gap-10">
           {data
             .filter((_, i) => i < Math.floor(data.length / 2))
@@ -131,7 +131,7 @@ const Skills = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <div className="flex gap-10 items-baseline">
+                <div className="flex gap-10">
                   <div>
                     <Image
                       src={skill.image}
@@ -160,7 +160,7 @@ const Skills = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <div className="flex gap-10 items-baseline">
+                <div className="flex gap-10">
                   <div>
                     <Image
                       src={skill.image}

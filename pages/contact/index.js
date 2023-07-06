@@ -56,7 +56,7 @@ const Contact = () => {
       <SectionTitle h2={"Contact"} />
       <form
         onSubmit={sendEmail}
-        className="contact-form grid grid-cols md:grid-cols-2 gap-14 py-10 mx-auto mt-20"
+        className="contact-form grid grid-cols md:grid-cols-2 text-lg gap-10 py-10 mx-auto mt-20"
         ref={formRef}
       >
         <div className="form-control flex flex-col gap-2">
