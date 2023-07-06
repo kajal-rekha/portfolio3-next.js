@@ -1,6 +1,8 @@
 import SectionTitle from "@/components/SectionTitle";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+
 const Contact = () => {
   const formRef = useRef(null);
 
@@ -18,10 +20,28 @@ const Contact = () => {
       )
       .then(
         () => {
-          console.log("message sent!");
+          toast.success("Your message sent!", {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         },
         () => {
-          console.log("message not sent!");
+          toast.error("Failed, please try again later!", {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         }
       );
 
