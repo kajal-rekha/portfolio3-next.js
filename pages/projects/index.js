@@ -76,7 +76,7 @@ const data = [
 ];
 const Projects = () => {
   return (
-    <div className="wrapper mt-32 py-10 projects">
+    <div className="wrapper mt-20 md:mt-32 py-10 projects">
       <SectionTitle h2="Projects" />
       <div className="projects-wrapper mt-32 flex flex-col gap-40">
         {data.map((project) => (

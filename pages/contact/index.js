@@ -52,11 +52,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact wrapper mt-40">
+    <div className="contact wrapper mt-20 md:mt-40">
       <SectionTitle h2={"Contact"} />
       <form
         onSubmit={sendEmail}
-        className="contact-form grid grid-cols md:grid-cols-2 text-lg gap-10 py-10 mx-auto mt-20"
+        className="contact-form grid grid-cols-1 lg:grid-cols-2 text-lg gap-10 py-10 mt-10 md:mt-20"
         ref={formRef}
       >
         <div className="form-control flex flex-col gap-2">

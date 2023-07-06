@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="hero wrapper grid grid-cols md:grid-cols-2 gap-10 overflow-hidden mt-40 ">
+    <div className="hero wrapper grid grid-cols-1 lg:grid-cols-2 gap-10 overflow-hidden mt-20 md:mt-40 ">
       <div className="hero-left">
         <div
           className="space-y-5"
@@ -14,7 +14,7 @@ const Hero = () => {
           <p className="text-2xl md:text-3xl  font-semibold">
             Hello there, my name is
           </p>
-          <h1 className="text-4xl md:text-6xl font-semibold  uppercase">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold  uppercase">
             Kajal Rekha
           </h1>
           <h1 className="text-2xl md:text-3xl text-orange-300">

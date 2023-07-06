@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="about wrapper mt-40 " id="about">
+    <div className="about wrapper mt-20 md:mt-40 " id="about">
       <SectionTitle h2={"About"} />
 
       <div
-        className="about-wrapper mt-32 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden"
+        className="about-wrapper mt-20  md:mt-32 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden"
         data-aos="fade-right"
         data-aos-duration="1000"
       >

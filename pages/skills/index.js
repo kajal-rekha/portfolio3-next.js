@@ -118,7 +118,7 @@ const data = [
 
 const Skills = () => {
   return (
-    <div className="skills wrapper py-10 mt-32" id="skills">
+    <div className="skills wrapper py-10 mt-10 md:mt-32" id="skills">
       <SectionTitle h2="Skills" />
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-20 mt-20">
         <ul className="skills-left flex flex-col gap-10">

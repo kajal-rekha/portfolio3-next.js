@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className=" navbar h-20 shadow-lg flex">
+      <div className="sm:w-full navbar h-20 shadow-lg flex">
         <div className="wrapper flex justify-between items-center">
           <div className="logo" data-aos="fade-right" data-aos-duration="1000">
             <Link
