@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ProjectItem = ({ project }) => {
   return (
-    <div className="project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20">
+    <div className="wrapper project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20">
       <div
         className="project-left xl:col-span-3 flex flex-col gap-6"
         data-aos="fade-up"
