@@ -18,22 +18,20 @@ const Hero = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "I am  mern stack  developer.",
-                    "I build amazing things for the web.",
-                    "I can also design creative & unique websites.",
+                    "I am a MERN stack  developer.",
+                    "Crafting uniquely creative websites is my specialty.",
+                    "I can also  engineer modern, innovative MERN solutions.",
                   ],
                   autoStart: true,
                   loop: true,
                 }}
               />
             </h1>
-            <p className="text-lg">
-              I am a highly skilled MERN stack developer with a strong passion
-              for building robust and innovative web applications. My expertise
-              lies in utilizing cutting-edge technologies such as Next.js,
-              React.js, Express.js, Node.js, MongoDB, Prisma, Redux, Tailwind
-              CSS, JavaScript, TypeScript, Axios, JWT, NextAuth, Stripe, and
-              Google Cloud Platform.
+            <p className="text-xl">
+              I am a skilled MERN stack developer with expertise in building web
+              applications. I am passionate about creating efficient and
+              user-friendly solutions, leveraging my strong knowledge of
+              MongoDB, Express.js, Next.js, React, and Node.js.
             </p>
             <div
               className="py-10"
