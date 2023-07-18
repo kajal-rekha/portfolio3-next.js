@@ -36,7 +36,7 @@ const Hero = () => {
             user-friendly solutions, leveraging my strong knowledge of MongoDB,
             Express.js, Next.js, React, and Node.js.
           </p>
-          <div className="py-10" data-aos="fade-right" data-aos-duration="1000">
+          <div className="py-10" data-aos="fade-right" data-aos-duration="900">
             <Link
               href="/about"
               className="py-4 px-7 text-lg font-medium border rounded-full border-white/20 hover:bg-orange-400/70 duration-300"
