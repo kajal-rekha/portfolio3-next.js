@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const ProjectItem = ({ project }) => {
   return (
-    <div className="wrapper project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20">
+    <div className="wrapper project grid grid-cols-1 lg:grid-cols-5 overflow-hidden gap-20">
       <div
-        className="project-left xl:col-span-3 flex flex-col gap-6"
+        className="project-left lg:col-span-3 flex flex-col gap-6"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
@@ -73,7 +73,7 @@ const ProjectItem = ({ project }) => {
       </div>
 
       <div
-        className="project-right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto"
+        className="project-right lg:col-span-2 lg:justify-self-end row-start-1 lg:row-auto"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
