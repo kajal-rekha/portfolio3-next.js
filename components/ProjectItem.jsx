@@ -74,7 +74,8 @@ const ProjectItem = ({ project }) => {
 
       <div
         className="project-right lg:col-span-2 lg:justify-self-end row-start-1 lg:row-auto"
-        data-aos="fade-up"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"
       >
         <Image

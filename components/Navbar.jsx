@@ -47,7 +47,7 @@ const Navbar = () => {
             data-aos-duration="1000"
           >
             <Link
-              href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1bKOu0HxLnbCj_Gd-qlUYF5nVFUQai2wR/view?usp=drive_link"
               className="resume"
             >
               View Resume
@@ -88,9 +88,11 @@ const Navbar = () => {
                   <Link href="/contact">Contact</Link>
                 </div>
 
-                <Link href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link">
-                  View Resume
-                </Link>
+                <div>
+                  <Link href="https://drive.google.com/file/d/1bKOu0HxLnbCj_Gd-qlUYF5nVFUQai2wR/view?usp=drive_link">
+                    View Resume
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

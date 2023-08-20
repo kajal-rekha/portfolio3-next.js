@@ -12,7 +12,15 @@ const About = () => {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <div className="about-left">
+        <div
+          className="about-left"
+          data-aos="zoom-in-up"
+          data-aos-delay="1500"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005077/109305530_mjokbs.jpg"
             alt="hero image"
@@ -53,7 +61,7 @@ const About = () => {
 
           <div className="mb-10" data-aos="fade-up" data-aos-duration="1000">
             <Link
-              href="https://drive.google.com/file/d/1knbRijme6r34D5vzKZbxV0PLugGKBHrL/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1bKOu0HxLnbCj_Gd-qlUYF5nVFUQai2wR/view?usp=drive_link"
               className="py-4 px-7 md:text-lg font-medium border rounded-full border-white/20 hover:bg-orange-400/70 duration-300"
             >
               View Resume

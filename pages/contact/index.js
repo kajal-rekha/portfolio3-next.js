@@ -94,15 +94,30 @@ const Contact = () => {
             data-aos-duration="1000"
           />
         </div>
-        <div
+        <button
+          role="link"
+          type="submit"
+          className=" text-white uppercase submit  rounded-xl  py-10 px-14 text-center overflow-hidden border border-gray-600 bg-transparent duration-300"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          Send
+        </button>
+        {/* <div
           className="submit  rounded-xl  py-10 px-14 text-center overflow-hidden border border-gray-600 bg-transparent  duration-300"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
-          <button role="link" type="submit" className=" text-white uppercase">
+          <button
+            role="link"
+            type="submit"
+            className=" text-white uppercase submit  rounded-xl  py-10 px-14 text-center overflow-hidden border border-gray-600 bg-transparent duration-300"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             Send
           </button>
-        </div>
+        </div> */}
       </form>
     </div>
   );
