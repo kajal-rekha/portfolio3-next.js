@@ -7,20 +7,8 @@ const About = () => {
     <div className="about wrapper mt-20 md:mt-40 " id="about">
       <SectionTitle h2={"About"} />
 
-      <div
-        className="about-wrapper mt-20  md:mt-32 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
-        <div
-          className="about-left"
-          data-aos="zoom-in-up"
-          data-aos-delay="1500"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
-        >
+      <div className="about-wrapper mt-20  md:mt-32 grid grid-cols-1 lg:grid-cols-2 gap-5 overflow-hidden">
+        <div className="about-left" data-aos="fade-up" data-aos-duration="1000">
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683005077/109305530_mjokbs.jpg"
             alt="hero image"
@@ -31,12 +19,8 @@ const About = () => {
           />
         </div>
         <div className="about-right">
-          <div>
-            <p
-              className="md:text-lg text-gray-300 mb-7"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
+          <div data-aos="fade-down" data-aos-duration="1000">
+            <p className="md:text-lg text-gray-300 mb-7">
               I am a mern stack developer with a passion for creating
               user-friendly and visually appealing websites. I have expertise in
               HTML, CSS, JavaScript, and React, and have a strong understanding
@@ -47,11 +31,7 @@ const About = () => {
               needs of my clients and their users.
             </p>
 
-            <p
-              className="md:text-lg text-gray-300 mb-20"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
+            <p className="md:text-lg text-gray-300 mb-20">
               I stay up-to-date with the latest development trends and
               techniques to ensure that my projects are up to industry
               standards. My goal is to deliver a seamless user experience that
